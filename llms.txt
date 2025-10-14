@@ -1,0 +1,22 @@
+# Instruction for Jules
+
+# 1. Create a Python module 
+Create a Python file called odd_even.py with a function:
+def classify_numbers(nums: list[int]) -> list[str]
+The function should return a list of strings where each number is classified as "odd" or "even".
+
+# 2. Create tests 
+Create test_odd_even.py with pytest tests for this function.
+Include at least 3 test cases, including an empty list, all odd numbers, and all even numbers.
+
+# 3. Create GitHub Actions workflow 
+Create a GitHub Actions workflow file at .github/workflows/tests.yml
+It should run pytest on Python 3.10, 3.11, and 3.12 whenever code is pushed or a pull request is created.
+
+# 4. Create README.md 
+Create a professional README.md including:
+- Project title: "Odd/Even Number Classifier"
+- Short description
+- How to run tests
+- Example usage
+- License section mentioning MIT
