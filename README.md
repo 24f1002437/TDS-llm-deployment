@@ -28,12 +28,19 @@ print(result)
 ```
 
 title: Odd Even API
+
 colorFrom: red
+
 colorTo: yellow
+
 sdk: docker
+
 pinned: false
+
 license: mit
+
 short_description: Flask app for the TDS LLM Deployment project
+
 
 #  Odd/Even Number Classifier
 
