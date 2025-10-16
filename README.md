@@ -26,8 +26,7 @@ result = classify_numbers(numbers)
 print(result)
 # Output: ['odd', 'even', 'odd', 'even', 'odd', 'even']
 
-```
----
+
 title: Odd Even API
 colorFrom: red
 colorTo: yellow
@@ -35,7 +34,6 @@ sdk: docker
 pinned: false
 license: mit
 short_description: Flask app for the TDS LLM Deployment project
----
 
 #  Odd/Even Number Classifier
 
@@ -43,9 +41,9 @@ A simple **Flask API** that classifies numbers as **odd** or **even**, built as 
 
 ---
 
-## 🚀 Live Deployment
+##  Live Deployment
 
-👉 **Hugging Face Space:** [ms3011/odd-even-api](https://huggingface.co/spaces/ms3011/odd-even-api)
+ **Hugging Face Space:** [ms3011/odd-even-api](https://huggingface.co/spaces/ms3011/odd-even-api)
 
 ### API Endpoint: https://ms3011-odd-even-api.hf.space/api
 
